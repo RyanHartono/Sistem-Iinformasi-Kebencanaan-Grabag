@@ -1,0 +1,87 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    max-width: 100%;
+    padding: 10px;
+}
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    background-color: orange;
+}
+.brand{
+    flex-direction: row;
+    font-size: 2em;
+    padding: 25px;
+    text-transform: capitalize;
+}
+.firstname{
+    color: white;
+    font-weight: 1000;
+}
+.lastname{
+    color: darkblue;
+    font-weight: 500;
+    padding-left: 0px;
+}
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.navigation { 
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform:capitalize;
+    display: block;
+    text-align:center;
+}
+.navigation>li>a:hover {
+    background-color: darkblue;
+    color: white !important;
+    border-radius: 200px;
+    transition: all .3s ease-in-out;
+    transition-delay: .2s;
+    padding: 15px;
+}
+.container-content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-overflow: hidden;
+    text-align: center;
+}
+.container-footer{
+    height: 5vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
